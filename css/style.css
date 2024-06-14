@@ -1,0 +1,126 @@
+/* Global Css */
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.global-btn{
+    padding: 5px 9px;
+    background: #034a74;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+}
+.global-section{
+    padding: 3rem 0;
+}
+.global-heading{
+    font-size: 55px;
+}
+.global-section-p{
+    color: blue;
+    text-align: center;
+}
+.global-section .global-head-p{
+    text-align: center;
+}
+.global-head-p{
+    text-align: center;
+}
+.global-heading{
+    text-align: center;
+    margin-bottom: 10px;
+}
+.global-heading:hover{
+    color: red;
+    background-color: aqua;
+}
+.about-sub-div2 h2:hover{
+    color: burlywood;
+}
+.global-btn:hover{
+    color: yellow;
+    background-color: red;
+}
+/* first section */
+.first-section{
+
+    background-image: url(../images/pexels-photo-459335.jpeg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-attachment: fixed;
+    padding: 10rem;
+    text-align: center;
+    background-position: center;
+    
+
+}
+
+.first-section h2{
+    font-size: 5rem;
+    margin: 10px 0;
+
+}
+
+.first-section p{
+    font-size: 2rem;
+}
+
+.container{
+    width: 800px;
+    margin: 0 auto;
+}
+.about-sub-div2{
+    margin-left: 30px;
+    line-height: 25px;
+    
+}
+.about-sub-div2 p{
+    text-transform: capitalize;
+
+
+}
+
+/* about us section */
+.about-main-div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 3rem 0;
+}
+.about-sub-div2{
+    width: 500px;
+}
+.about-sub-div2 h2{
+    font-size: 33px;
+
+
+}
+.about-sub-div2 p{
+    color: #7b7b7b;
+    margin: 15px 0;
+}
+/* this is service area */
+
+.grid-container {
+    display: grid;
+    grid-template-columns:auto auto auto;
+}
+.grid-single-item{
+    padding: 50px;
+    text-align: center;
+}
+.grid-single-item h2{
+    margin: 15px 0px;
+}
+.grid-single-item p{
+color: #7b7b7b;
+}
+    
+.custom-icon-size{
+    font-size: 60px;
+}
+.work-single-image{
+    width: 190px;
+    
+}
